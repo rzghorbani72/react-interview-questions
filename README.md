@@ -487,14 +487,14 @@ By using default you express that\'s going to be member in that module which wou
 
 ## Q. ***What is difference between declarative and imperative in React.js?***
 
-Imperative code uses statements and declarative code uses expressions. 
-Expressions evaluate to a value while statements tell the computer to do something.
+* Imperative code uses statements and declarative code uses expressions. 
+* Expressions evaluate to a value while statements tell the computer to do something.
 
 ### **Imperative programming**
-In **Imperative programming**, your code is based on statements that change the program state by telling the computer how to do things. In other words, your code is based on defining variables and changing the values of those variables.
-Statements don’t necessarily need any input or output, they can just call other functions or change some value somewhere outside of their internal state.
-The challenge of state management in imperative code is that with growing complexity you may have many parts of the code touching the same state and when your system starts having trouble it may be quite difficult to debug.
-It is a programming paradigm that uses statements that change a program\'s state.
+* In **Imperative programming**, your code is based on statements that change the program state by telling the computer how to do things. In other words, your code is based on defining variables and changing the values of those variables.
+* Statements don’t necessarily need any input or output, they can just call other functions or change some value somewhere outside of their internal state.
+* The challenge of state management in imperative code is that with growing complexity you may have many parts of the code touching the same state and when your system starts having trouble it may be quite difficult to debug.
+* It is a programming paradigm that uses statements that change a program\'s state.
 
 ```js
 var string = "Hi there , I'm a web developer";
@@ -510,12 +510,13 @@ In this example, we loop through every character in the string, replacing spaces
 
 ### **Declarative programming**
 
-In **Declarative programming**, your code is based on expressions that evaluate their result based on their input by telling the computer what you want.
-Expressions focus on taking input and providing output while relying only on the input itself. Such expression is called pure function in functional programming.
-In declarative functional programming, changing the external state or causing external actions such as console log, saving a file, or loading database record is called a side effect. Changing a value of anything is called a mutation. In functional programming, we prefer to always stick to constants.
+* In **Declarative programming**, your code is based on expressions that evaluate their result based on their input by telling the computer what you want.
+* Expressions focus on taking input and providing output while relying only on the input itself. Such expression is called pure function in functional programming.
+* In declarative functional programming, changing the external state or causing external actions such as console log, saving a file, or loading database record is called a side effect. Changing a value of anything is called a mutation.
+*  In functional programming, we prefer to always stick to constants.
 When we talk about declarative code focusing on telling a computer what to do, we mean working with expressions that map inputs into outputs.
-In declarative code, you focus on building a function composition that takes a number of small functions and strings them together so one function sequentially passes its output as an input to the next function in line. That has many advantages.
-It is a programming paradigm that expresses the logic of a computation without describing its control flow.
+*  In declarative code, you focus on building a function composition that takes a number of small functions and strings them together so one function sequentially passes its output as an input to the next function in line. That has many advantages.
+* It is a programming paradigm that expresses the logic of a computation without describing its control flow.
 
 **Example:**
 
@@ -1144,7 +1145,7 @@ render() {
 </div>
 
 ## Q. ***How to prevent component from rendering in React?***
-
+** [helpfull resource](https://blog.bitsrc.io/5-ways-to-avoid-react-component-re-renderings-90241e775b8c)
 You can prevent component from rendering by returning `null` based on specific condition. This way it can conditionally render component.
 
 In the example below, the `<WarningBanner />` is rendered depending on the value of the prop called warn. If the value of the prop is `false`, then the component does not render:
