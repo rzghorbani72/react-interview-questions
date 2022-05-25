@@ -1145,8 +1145,9 @@ render() {
 </div>
 
 ## Q. ***How to prevent component from rendering in React?***
-** [helpfull resource](https://blog.bitsrc.io/5-ways-to-avoid-react-component-re-renderings-90241e775b8c)
-You can prevent component from rendering by returning `null` based on specific condition. This way it can conditionally render component.
+
+**&#9885; [helpfull resource](https://blog.bitsrc.io/5-ways-to-avoid-react-component-re-renderings-90241e775b8c)
+* You can prevent component from rendering by returning `null` based on specific condition. This way it can conditionally render component.
 
 In the example below, the `<WarningBanner />` is rendered depending on the value of the prop called warn. If the value of the prop is `false`, then the component does not render:
 
